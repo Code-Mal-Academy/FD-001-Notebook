@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "task": "Cook Dinner",
+    "finished": false
+  },
+  {
+    "id": 2,
+    "task": "Do Maths",
+    "finished": false
+  },
+  {
+    "task": "Finish Dishes",
+    "finished": false,
+    "id": 3
+  }
+]
