@@ -29,6 +29,7 @@ app.get("/api", async (req, res) => {
 app.post("/api/create", async (req, res) => {
     const body = req.body as typeof todo[number]
     body.id = todo.length + 1
+    body.finished = false
     todo.push(body)
     return res.status(201).send(body)
 })

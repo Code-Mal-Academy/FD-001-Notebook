@@ -1,7 +1,6 @@
 import { defineConfig, ViteDevServer } from 'vite'
 import react from '@vitejs/plugin-react'
-import app from "./backend/app"
-
+import app from "./server/server"
 
 function expressPlugin() {
   return {
